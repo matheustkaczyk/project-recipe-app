@@ -1,0 +1,51 @@
+.container-search {
+  background: url('../images//recipes-back4.jpg') top;
+  background-size: inherit;
+  height: 100vh;
+  margin: 0 auto;
+  width: 360px;
+}
+
+.header {
+  background-color: #e74e1f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.header button {
+  background: none;
+  border: none;
+  margin-left: 8px;
+}
+
+.header img {
+  width: 24px;
+}
+
+.header p {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 70px;
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}
+
+.buttons button {
+  background-color: #e74e1f;
+  border: 0;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 32px;
+  padding: 8px;
+  width: 240px;
+}

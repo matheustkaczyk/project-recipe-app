@@ -8,9 +8,9 @@ O projeto foi desenvolvido em equipe junto de meu colega Renan Ferreira.
 
 Para iniciar o projeto você deve:
 1. Clonar o repositório
-* `git clone git@github.com:matheustkaczyk/project-trybewallet.git`
+* `git clone git@github.com:matheustkaczyk/project-recipe-app.git`
 * Entre na pasta que você acabou de clonar
-* `cd project-trybewallet`
+* `cd project-recipe-app`
 
 2. Instale as dependências e inicializa o projeto:
 * Instalando as dependências

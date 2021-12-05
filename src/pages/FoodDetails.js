@@ -129,6 +129,7 @@ const FoodDetails = () => {
               }
             </ul>
             <p data-testid="instructions" key={ strInstructions }>{strInstructions}</p>
+            { console.log(strYoutube) }
             <iframe
               data-testid="video"
               key={ strYoutube }

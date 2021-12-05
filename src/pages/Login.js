@@ -43,6 +43,7 @@ function Login({ history }) {
   };
 
   return (
+<<<<<<< HEAD
     <div className="login-container">
       <Input
         type="text"
@@ -64,6 +65,31 @@ function Login({ history }) {
         onClick={ () => handleClick() }
         datatestId="login-submit-btn"
       />
+=======
+    <div className="container-root">
+      <div className="login-container">
+        <Input
+          type="text"
+          name="email"
+          datatestId="email-input"
+          placeH="Insira o seu e-mail:"
+          onChange={ (e) => handleChange(e) }
+        />
+        <Input
+          type="password"
+          name="password"
+          datatestId="password-input"
+          placeH="Insira a sua senha:"
+          onChange={ (e) => handleChange(e) }
+        />
+        <Button
+          btnText="Entrar"
+          disabled={ disabled }
+          onClick={ () => handleClick() }
+          datatestId="login-submit-btn"
+        />
+      </div>
+>>>>>>> group-3-styles
     </div>
   );
 }

@@ -8,6 +8,11 @@ import whiteHeartIcon from '../images/whiteHeartIcon.svg';
 import fetchDrinkDetailsApi from '../services/fetchDrinkDetailsApi';
 import getIngredients from '../util/getIngredients';
 import getMeasure from '../util/getMeasures';
+<<<<<<< HEAD
+=======
+import getFavorite from '../util/getFavorite';
+// import Copy from '../components/Clipboard-Copy';
+>>>>>>> group-3-styles
 import getFavoriteDrink from '../util/getFavoriteDrink';
 import onFavoriteDrink from '../util/onFavoriteDrink';
 import Copy from '../components/Clipboard-Copy';
@@ -22,6 +27,10 @@ const DrinkInProgress = () => {
   const [ingredients, setIngredients] = useState([]);
   const [measures, setMeasures] = useState([]);
   const [favorite, setFavorite] = useState(false);
+<<<<<<< HEAD
+=======
+
+>>>>>>> group-3-styles
   const [showMsg, setShowMsg] = useState(false);
 
   function DetailUrl() {
@@ -37,6 +46,10 @@ const DrinkInProgress = () => {
   }, [setDrinkDetails, actualPath]);
 
   useEffect(() => {
+<<<<<<< HEAD
+=======
+    getFavorite(drinkDetails, setFavorite);
+>>>>>>> group-3-styles
     getFavoriteDrink(drinkDetails, setFavorite);
     getIngredients(drinkDetails, setIngredients);
     getMeasure(drinkDetails, setMeasures);
@@ -118,5 +131,8 @@ const DrinkInProgress = () => {
     </div>
   );
 };
+<<<<<<< HEAD
 
+=======
+>>>>>>> group-3-styles
 export default DrinkInProgress;

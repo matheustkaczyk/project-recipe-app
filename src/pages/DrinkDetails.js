@@ -15,6 +15,10 @@ import getMeasure from '../util/getMeasures';
 import getFavoriteDrink from '../util/getFavoriteDrink';
 import onFavoriteDrink from '../util/onFavoriteDrink';
 import Copy from '../components/Clipboard-Copy';
+<<<<<<< HEAD
+=======
+import getFavorite from '../util/getFavorite';
+>>>>>>> group-3-styles
 import './details.css';
 
 const DrinkDetails = () => {
@@ -42,6 +46,10 @@ const DrinkDetails = () => {
   }, [actualPath, setDrinkDetails]);
 
   useEffect(() => {
+<<<<<<< HEAD
+=======
+    getFavorite(drinkDetails, setFavorite);
+>>>>>>> group-3-styles
     getFavoriteDrink(drinkDetails, setFavorite);
     getIngredients(drinkDetails, setIngredients);
     getMeasure(drinkDetails, setMeasures);

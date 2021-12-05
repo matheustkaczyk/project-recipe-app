@@ -15,6 +15,10 @@ import getMeasure from '../util/getMeasures';
 import getFavoriteFood from '../util/getFavoriteFood';
 import onFavoriteFood from '../util/onFavoriteFood';
 import Copy from '../components/Clipboard-Copy';
+<<<<<<< HEAD
+=======
+import getFavorite from '../util/getFavorite';
+>>>>>>> group-3-styles
 import './details.css';
 
 const FoodDetails = () => {
@@ -44,6 +48,10 @@ const FoodDetails = () => {
   }, [actualPath, setFoodDetails]);
 
   useEffect(() => {
+<<<<<<< HEAD
+=======
+    getFavorite(foodDetails, setFavorite);
+>>>>>>> group-3-styles
     getFavoriteFood(foodDetails, setFavorite);
     getIngredients(foodDetails, setIngredients);
     getMeasure(foodDetails, setMeasures);
@@ -127,6 +135,7 @@ const FoodDetails = () => {
               }
             </ul>
             <p data-testid="instructions" key={ strInstructions }>{strInstructions}</p>
+            { console.log(strYoutube) }
             <iframe
               data-testid="video"
               key={ strYoutube }

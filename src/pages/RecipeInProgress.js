@@ -8,6 +8,11 @@ import whiteHeartIcon from '../images/whiteHeartIcon.svg';
 import fetchMealDetailsApi from '../services/fetchMealDetailsApi';
 import getIngredients from '../util/getIngredients';
 import getMeasure from '../util/getMeasures';
+<<<<<<< HEAD
+=======
+import getFavorite from '../util/getFavorite';
+// import Copy from '../components/Clipboard-Copy';
+>>>>>>> group-3-styles
 import getFavoriteFood from '../util/getFavoriteFood';
 import onFavoriteFood from '../util/onFavoriteFood';
 import Copy from '../components/Clipboard-Copy';
@@ -22,6 +27,10 @@ const RecipeInProgress = () => {
   const [ingredients, setIngredients] = useState([]);
   const [measures, setMeasures] = useState([]);
   const [favorite, setFavorite] = useState(false);
+<<<<<<< HEAD
+=======
+
+>>>>>>> group-3-styles
   const [showMsg, setShowMsg] = useState(false);
 
   function DetailUrl() {
@@ -37,6 +46,10 @@ const RecipeInProgress = () => {
   }, [actualPath, setFoodDetails]);
 
   useEffect(() => {
+<<<<<<< HEAD
+=======
+    getFavorite(foodDetails, setFavorite);
+>>>>>>> group-3-styles
     getFavoriteFood(foodDetails, setFavorite);
     getIngredients(foodDetails, setIngredients);
     getMeasure(foodDetails, setMeasures);

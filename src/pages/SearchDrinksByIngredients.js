@@ -12,7 +12,11 @@ const SearchDrinksByIngredients = () => {
 
   return (
     <div className="ingredient-container">
+<<<<<<< HEAD
       <header>
+=======
+      <header className="header">
+>>>>>>> group-3-styles
         <Link to="/perfil">
           <button type="button">
             <img src={ profileIcon } alt="profile" data-testid="profile-top-btn" />

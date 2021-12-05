@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .login-container {
   align-items: center;
   background-color: #fffffe;
@@ -13,6 +14,39 @@
   border: 1px solid #1f1f1f;
   border-radius: 6px;
   font-size: 14px;
+=======
+.container-root {
+  align-items: center;
+  background: url("../images/recipes-app.jpg");
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.login-container {
+  align-items: center;
+  background-color: #f8f4f0;
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+  bottom: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: -240px;
+  max-width: 360px;
+  opacity: 0.9;
+  padding: 16px;
+}
+
+.login-container input {
+  background-color: #f8f4f0;
+  border: 1px solid #1f1f1f;
+  border-radius: 6px;
+  color: #241d1d;
+  font-size: 22px;
+  font-weight: 600;
+>>>>>>> group-3-styles
   margin: 8px 0;
   outline: none;
   padding: 4px 8px;
@@ -20,12 +54,21 @@
 }
 
 .login-container button {
+<<<<<<< HEAD
   background-color: #f1c708;
   border: 1px solid #f1c708;
   border-radius: 4px;
   color: #001e1d;
   cursor: pointer;
   font-size: 14px;
+=======
+  background-color: #e7361f;
+  border: 1px solid #e7361f;
+  border-radius: 4px;
+  color: #f8f8f8;
+  cursor: pointer;
+  font-size: 22px;
+>>>>>>> group-3-styles
   font-weight: 600;
   margin: 8px 0;
   padding: 4px;
@@ -34,5 +77,9 @@
 }
 
 .login-container button:hover {
+<<<<<<< HEAD
   background-color: #caa80e;
+=======
+  background-color: #ac2917;
+>>>>>>> group-3-styles
 }

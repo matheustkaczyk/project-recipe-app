@@ -4,6 +4,8 @@ A idéia do projeto foi construir uma aplicação web própria para mobile, cons
 de ver os ingredientes, adicionar aos favoritos e ver o progresso da receita.
 O projeto foi desenvolvido em equipe junto de meu colega Renan Ferreira.
 
+( RECOMENDADO VISUALIZAR NA RESOLUÇÃO 360x640 )
+
 Para iniciar o projeto você deve:
 1. Clonar o repositório
 * `git clone git@github.com:matheustkaczyk/project-trybewallet.git`
